@@ -3,3 +3,7 @@
 .chat-view {}
 
 .input-box {}
+
+.input-box .fa {
+  font-size: 1.5em;
+}
