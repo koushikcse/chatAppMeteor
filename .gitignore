@@ -1,2 +1,4 @@
-.meteor/local
-.meteor/meteorite
+app/.meteor/local
+app/.meteor/meteorite
+.iron
+build
