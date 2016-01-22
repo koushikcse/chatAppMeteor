@@ -1,13 +1,153 @@
-.user-details {}
+@import url(https://fonts.googleapis.com/css?family=Roboto);
 
-.chat-view {}
+/*Chat Page*/
 
-.input-box {}
+
+/*User Details*/
+
+.user-details {
+    height: 80px;
+    color: #fff;
+    background-color: #111;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.user-details .fa {
+    font-size: 4em;
+    cursor: pointer;
+}
+
+.user-details .fa:hover {
+    color: #337ab7;
+}
+
+.user-details img {
+    margin-top: 5px;
+}
+
+.user-details h1 {
+    margin-top: 10px;
+}
+
+
+/*Chat View*/
+
+.chat-view {
+    overflow: auto;
+    padding-top: 5px;
+    background-color: #ECECEC;
+}
+
+.chat-view .panel {
+    background-color: #999;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+.chat-view .left-panel {
+    background-color: #6C7A89;
+    margin-left: -15px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.chat-view .right-panel {
+    background-color: ##34495E;
+    margin-right: -15px;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.chat-view .left-panel>.panel-body {
+    padding-left: 0;
+}
+
+.chat-view .right-panel>.panel-body {
+    padding-right: 0;
+}
+
+.chat-view .panel-body {
+    padding: 10px;
+    line-height: 100%;
+}
+
+.chat-view p {
+    margin: 0 10px;
+}
+
+.chat-view p:first-child {
+    color: #ECF0F1;
+    font-size: 14px;
+}
+
+.chat-view p:last-child {
+    font-size: 10px;
+}
+
+.chat-view hr {
+    margin: 4px 0;
+    border-top-color: #888;
+}
+
+
+/*Input Box*/
+
+.input-box {
+    padding: 10px 0;
+    background-color: #111;
+}
+
+.input-box input {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.input-box button {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.input-box .col-xs-10 {
+    padding-right: 0;
+}
+
+.input-box .col-xs-2 {
+    padding-left: 0;
+}
 
 .input-box .fa {
     font-size: 1.5em;
 }
 
+
+/*User List*/
+
+
+/*user*/
+
 .user-panel {
-    background-color: #999;
+    padding: 15px 0;
+    background-color: #EEEEEE;
+    border-bottom: 1px solid #aaa;
+}
+
+.user-panel a {
+    color: #7C7A89;
+}
+
+.user-panel a:hover {
+    background-color: #DADFE1;
+}
+
+.user-panel .user-name {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.user-panel .last-msg-time {
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.4em;
 }

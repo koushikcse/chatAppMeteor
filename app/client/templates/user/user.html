@@ -1,22 +1,20 @@
 <template name="user">
     <div class="row">
-        <a href="#">
-            <div class="panel user-panel">
-                <div class="panel-body">
-                    <div class="col-xs-3">
-                        <img src="/img/user.png" width="46px" height="46px" alt="" class="img-circle">
+        <div class="col-xs-12 user-panel">
+            <a href="#">
+                <div class="col-xs-2">
+                    <img src="/img/user.png" width="46px" height="46px" alt="" class="img-circle">
+                </div>
+                <div class="col-xs-10">
+                    <div class="row">
+                        <div class="col-xs-12 user-name">{{name}}</div>
                     </div>
-                    <div class="col-xs-9">
-                        <div class="row">
-                            <div class="col-xs-12">{{name}}</div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-8">{{last_msg}}</div>
-                            <div class="col-xs-4">{{last_msg_time}}</div>
-                        </div>
+                    <div class="row">
+                        <div class="col-xs-8 last-msg">{{last_msg}}</div>
+                        <div class="col-xs-4 text-right last-msg-time">{{last_msg_time}}</div>
                     </div>
                 </div>
-            </div>
-        </a>
+            </a>
+        </div>
     </div>
 </template>
