@@ -3,52 +3,50 @@ var self_id = "1";
 Template.ChatPageLayout.helpers({
     data: function() {
         var data = [{
-                "user_id": "1",
-                "msg": "Some message",
-                "msg_time": "12/12/15 at 15:10"
-            }
-            /*, {
-                        "user_id": "2",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "1",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "2",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "2",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "1",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "2",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "1",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "2",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "2",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }, {
-                        "user_id": "1",
-                        "msg": "Some message",
-                        "msg_time": "12/12/15 at 15:10"
-                    }*/
-        ];
+            "user_id": "1",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "2",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "1",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "2",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "2",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "1",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "2",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "1",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "2",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "2",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }, {
+            "user_id": "1",
+            "msg": "Some message",
+            "msg_time": "12/12/15 at 15:10"
+        }];
 
         data.forEach(function(elem) {
             if (elem.user_id === self_id) {
