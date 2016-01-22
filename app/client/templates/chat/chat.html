@@ -1,10 +1,11 @@
 <template name="chat">
     <div class="row">
-        <div class="col-xs-8 {{#if left}}col-xs-offset-4{{/if}}">
-            <div class="panel user-panel">
+        <div class="col-xs-8 {{#unless left}}col-xs-offset-4{{/unless}}">
+            <div class="panel {{#if left}}left-panel{{else}}right-panel{{/if}}">
                 <div class="panel-body">
                     <p>{{msg}}</p>
-                    <p>{{msg_time}}</p>
+                    <hr/>
+                    <p class="text-right">{{msg_time}}</p>
                 </div>
             </div>
         </div>
